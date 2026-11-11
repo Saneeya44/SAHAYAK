@@ -1,0 +1,33 @@
+{
+  "name": "sahayak-backend",
+  "version": "1.0.0",
+  "description": "SAHAYAK — Community Assistance & Emergency Dispatch backend for Shirva Police Station (PS-03)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/scripts/seed.js",
+    "test": "node tests/run-flows.js"
+  },
+  "keywords": [
+    "sahayak",
+    "karnataka-police",
+    "shirva",
+    "emergency-dispatch"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
